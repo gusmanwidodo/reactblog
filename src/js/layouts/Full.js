@@ -5,6 +5,7 @@ import { Switch, Route } from 'react-router-dom'
 import Header from '../includes/Header'
 import Home from '../pages/Home'
 import About from '../pages/About'
+import Detail from '../pages/Detail'
 
 class Full extends Component {
     render() {
@@ -12,10 +13,11 @@ class Full extends Component {
             <div className="full-layout">
                 <Header />
 
-                <div className="container">
+                <div className="container p-3">
                     <Switch>
                         <Route exact path="/" component={Home}/>
                         <Route path="/about" component={About}/>
+                        <Route path="/detail" component={Detail}/>
                     </Switch>
                 </div>
             </div>

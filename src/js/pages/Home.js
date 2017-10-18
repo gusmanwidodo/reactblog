@@ -1,10 +1,22 @@
 import React, { Component } from 'react';
+import Card from '../includes/Card'
 
 class Home extends Component {
     render() {
         return (
-            <div>
-                <h1>Home</h1>
+            <div className="card-columns">                    
+                <Card />
+                <Card />
+                <Card />
+                <Card />
+                <Card />
+                <Card />
+                <Card />
+                <Card />
+                <Card />
+                <Card />
+                <Card />
+                <Card />
             </div>
         )
     }
