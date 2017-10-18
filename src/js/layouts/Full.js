@@ -12,10 +12,12 @@ class Full extends Component {
             <div className="full-layout">
                 <Header />
 
-                <Switch>
-                    <Route exact path="/" component={Home}/>
-                    <Route path="/about" component={About}/>
-                </Switch>
+                <div className="container">
+                    <Switch>
+                        <Route exact path="/" component={Home}/>
+                        <Route path="/about" component={About}/>
+                    </Switch>
+                </div>
             </div>
         );
     }
